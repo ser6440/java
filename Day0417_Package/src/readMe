@@ -1,0 +1,7 @@
+java.lang
+>>자바를 실행하기 위한 기본적인 기능을 가진 클래스를 모아 놓은 패키지
+특징: 기본적인 패키지이기 때문에 import없이 사용가능
+
+import: 다른 패키지에 있는 클래스를 사용하고자 할 때,
+import 패키지명.클래스; 를 해주고 사용해야 한다.
+ex) Scanner: import java.util.Scanner;
