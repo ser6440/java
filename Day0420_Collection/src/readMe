@@ -1,0 +1,15 @@
+Collection 사용법에 대해서 좀더 알아봅시다.
+Map, Set
+
+Set: 중복을 허용하지 않는 자료구조
+
+Map: key-value 형태의 자료구조
+key(숫자) : value(학생)
+"hong":홍길동
+"Shin":신사임당
+"Kim":김장금
+"Lee":이순신
+"Lee":이순신
+
+int:String
+
