@@ -1,0 +1,32 @@
+package studentdao;
+
+public class Student {
+	//Model클래스
+	//Getter/Setter/ToString
+	private int snum;
+	private String sname;
+	private int sgrade;
+	
+	public int getSnum() {
+		return snum;
+	}
+	public void setSnum(int snum) {
+		this.snum = snum;
+	}
+	public String getSname() {
+		return sname;
+	}
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+	public int getSgrade() {
+		return sgrade;
+	}
+	public void setSgrade(int grade) {
+		this.sgrade = grade;
+	}
+	@Override
+	public String toString() {
+		return "Student [snum=" + snum + ", sname=" + sname + ", sgrade=" + sgrade + "]";
+	}
+}
